@@ -90,7 +90,7 @@ docker images
 #
 - Run the image as a container
 ```bash
-docker run -itd --name nodeapp -p 8000:8000 node-app
+docker run -d -p 8000:8000 node-app:latest
 ```
 > [!Note]
 > This application runs on port 8000, that's why we mentioned 8000 in the above command
